@@ -1,0 +1,116 @@
+.why-diffrent {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.why-diffrent-header {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.why-diffrent .carousel-item p {
+    line-height: 2rem;
+}
+
+.why-diffrent .carousel-item-background {
+    display: none;
+}
+
+.why-diffrent .media {
+    z-index: 1;
+}
+
+.why-diffrent .carousel {
+    position: static;
+}
+
+.carousel-indicators {
+    bottom: -3%;
+}
+
+.carousel-indicators li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-indent: 10.5px;
+    line-height: 28px;
+}
+
+.carousel-indicators li.active {
+    color: white;
+    background-color: $blue;
+}
+
+@media (min-width: 576px) {
+    .why-diffrent {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .why-diffrent-header {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+    .carousel-indicators {
+        bottom: -3%;
+    }
+}
+
+@media (min-width: 768px) {
+    .why-diffrent {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .why-diffrent-header {
+        font-size: 2.5rem;
+        padding-bottom: 3rem;
+    }
+    .carousel-indicators {
+        bottom: -1%;
+    }
+}
+
+@media (min-width: 992px) {
+    .why-diffrent {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .why-diffrent-header {
+        font-size: 2.5rem;
+        padding-bottom: 5rem;
+    }
+    .carousel-item-background {
+        display: block;
+    }
+    .carousel-indicators {
+        bottom: 2%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .why-diffrent {
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+    }
+    .why-diffrent-header {
+        font-size: 2.5rem;
+        padding-bottom: 7.5rem;
+    }
+    .why-diffrent::after {
+        content: "";
+        background-image: url(./img/carousel-background.png);
+        background-repeat: no-repeat;
+        background-position: right, bottom;
+        background-size: contain;
+        opacity: 0.66;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: 0;
+    }
+    .carousel-indicators {
+        bottom: 7%;
+    }
+}

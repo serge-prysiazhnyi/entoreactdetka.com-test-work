@@ -1,0 +1,94 @@
+.contact-us input::placeholder {
+    opacity: .3;
+}
+
+.contact-us input {
+    font-family: "Font Awesome 5 Free", "Open Sans";
+}
+
+.contact-us {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contact-us-header {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.contact-us-form-subtitile {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+    .contact-us {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .contact-us-header {
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    .contact-us-form-subtitile {
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-us {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .contact-us-header {
+        font-size: 2.5rem;
+        padding-bottom: 1.7rem;
+    }
+    .contact-us-form-subtitile {
+        padding-bottom: 2rem;
+    }
+    .contact-us-btn-custom {
+        font-size: 1.25rem;
+    }
+    .contact-us-input-custom {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact-us {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .contact-us-header {
+        font-size: 2.5rem;
+        padding-bottom: 2.7rem;
+    }
+    .contact-us-form-subtitile {
+        padding-bottom: 3rem;
+    }
+    .contact-us-btn-custom {
+        height: 4.375rem;
+        width: 11.56rem
+    }
+    .contact-us-input-custom {
+        height: 4.375rem;
+    }
+    .contact-us input::placeholder {
+        text-indent: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-us {
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+    }
+    .contact-us-header {
+        font-size: 2.5rem;
+        padding-bottom: 3.125rem;
+    }
+    .contact-us-form-subtitile {
+        padding-bottom: 4rem;
+    }
+}

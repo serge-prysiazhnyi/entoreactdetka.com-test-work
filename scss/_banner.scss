@@ -1,0 +1,64 @@
+.banner {
+    background-color: $blue;
+}
+
+.banner .cloud-icon {
+    visibility: hidden;
+}
+
+.banner .cloud-icon-1 {
+    top: 13%;
+    left: -2%;
+}
+
+.banner .cloud-icon-2 {
+    bottom: 3%;
+    left: 3%;
+    transform: scale(.6);
+    opacity: .8;
+}
+
+.banner .cloud-icon-3 {
+    top: 21%;
+    right: 9%;
+    transform: scale(.8);
+}
+
+.banner .cloud-icon-4 {
+    right: 1%;
+    bottom: 14%;
+    opacity: .7;
+    transform: scale(.9);
+}
+
+.banner input::placeholder {
+    opacity: .3;
+}
+
+.banner-subtitle {
+    font-size: 1.5rem;
+}
+
+.banner legend span {
+    font-size: 1rem!important;
+}
+
+.img-phone{
+    position: static;
+}
+
+@media (min-width: 768px) { 
+    .img-phone{
+        position: absolute;
+        bottom: 0px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .img-phone{
+        position: static;
+    }
+    .cloud-icon {
+        visibility: visible;
+    }
+}

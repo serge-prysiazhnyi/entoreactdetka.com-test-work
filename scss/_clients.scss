@@ -1,0 +1,36 @@
+.clients {
+    height: 10rem;
+}
+
+.client-logo {
+    filter: saturate(0%);
+    transition: filter .3s ease-in;
+}
+
+.client-logo:hover {
+    filter: saturate(100%);
+    transition: filter .3s ease-out;
+}
+
+.client-logo-sony {
+    opacity: 0.5;
+    transition: opacity .3s ease-in;
+}
+
+.client-logo-sony:hover {
+    opacity: 1;
+    transition: opacity .3s ease-in;
+}
+
+.clients img {
+    max-height: 10rem;
+}
+
+.clients a {
+    margin: 0px 0px 0px 0px;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.marquee {
+    overflow: hidden;
+}
